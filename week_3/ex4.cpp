@@ -18,6 +18,7 @@ FUNCTION dequeue():
         dequeued_value ← head.value
         head ← head.next
         RETURN dequeued_value
+    // the complexity of the algorithms is O(1) all functuion enqueue and dequeue
 
 */
 struct Node{

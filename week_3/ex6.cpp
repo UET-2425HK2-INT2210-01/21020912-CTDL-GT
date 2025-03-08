@@ -9,6 +9,24 @@ struct Node{
         next = nullptr;
     }
 };
+/*
+    INITIALIZE top as NULL
+    FUNCTION push(value):
+        newNode ← CREATE NODE(value)
+        newNode.next ← top
+        top ← newNode
+
+    FUNCTION pop():
+        IF top is NULL:
+            PRINT "Stack Underflow"
+        ELSE:
+            popped_value ← top.value
+            top ← top.next
+            RETURN popped_value
+
+    // the complexity of the algorithms is O(1) all functuion pop and push
+
+*/
 struct Stack{
     Node* top;
     int length;

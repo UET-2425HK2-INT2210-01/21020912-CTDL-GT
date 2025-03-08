@@ -16,6 +16,7 @@ FUNCTION pop(stack):
         popped_value ← stack[top]
         top ← top - 1
         RETURN popped_value
+    // the complexity of the algorithms is O(1) all functuion pop and push
 
 */
 #define max_stack 1000

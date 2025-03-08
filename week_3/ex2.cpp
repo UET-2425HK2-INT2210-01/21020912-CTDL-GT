@@ -20,7 +20,7 @@ FUNCTION power2_1(n):
             result = result * 2  // If n is positive, multiply by 2
 
     RETURN result
-
+    // the complexity of the algorithms is O(n)
 */
 
 double power2_1(ll n){
@@ -46,7 +46,7 @@ FUNCTION power2_2(n):
         RETURN power2_2(n + 1) / 2  // If n is negative, reduce n and divide by 2
     ELSE:
         RETURN 2 * power2_2(n - 1)  // If n is positive, multiply by 2 and decrease n
-
+    // the complexity of the algorithms is O(n)
 */
 double power2_2(ll n){
     if (n == 0) return 1;
@@ -76,6 +76,7 @@ FUNCTION power2_3(n, base):
         RETURN 1 / result  
     ELSE:
         RETURN result  
+    // the complexity of the algorithms is O(logn)
 
 */
 
@@ -109,6 +110,7 @@ FUNCTION power2_4(n):
         RETURN 1 / result  
     ELSE:
         RETURN result  
+    // the complexity of the algorithms is O(1)
 
 */
 double power2_4(ll n){

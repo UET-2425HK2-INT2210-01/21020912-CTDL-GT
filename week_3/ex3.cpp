@@ -17,7 +17,7 @@ FUNCTION dequeue(queue):
         dequeued_value ← queue[front]
         front ← front + 1
         RETURN dequeued_value
-
+    // the complexity of the algorithms is O(1) all functuion enqueue and dequeue
 
 */
 class Queue{
