@@ -1,0 +1,6 @@
+5
+enqueue 10 2
+enqueue 5 3
+enqueue 7 1
+dequeue
+enqueue 8 5

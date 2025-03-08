@@ -1,0 +1,7 @@
+6
+append 5
+append 3
+append 8
+search 3
+reverse
+search 3
