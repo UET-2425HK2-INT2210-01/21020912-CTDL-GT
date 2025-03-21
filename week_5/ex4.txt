@@ -1,0 +1,7 @@
+6
+Insert 1 Tuan K61CS
+Insert 2 Vinh K43C
+Infor 3
+Infor 2
+Delete 2
+Infor 2
