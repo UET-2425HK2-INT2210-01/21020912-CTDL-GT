@@ -160,6 +160,7 @@ public:
         }
     }
 
+    
     // Hiển thị thông tin về cây
     void displayTreeInfo() {
         cout << "Height of the tree: " << height << endl;
